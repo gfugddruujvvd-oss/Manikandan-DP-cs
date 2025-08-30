@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>THOUFEK  Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Portfolio of THOUFEEK " />
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">My portfolio </a>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle" class="btn ghost" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </header>
+
+  <main id="home" class="hero container">
+    <div class="hero-text">
+      <h1>Hello, I’m <span>THOUFEEK RAHMAN M</span></h1>
+      <p class="muted">
+        Front-end learner crafting smooth, modern web experiences with HTML, CSS, and JavaScript.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn ghost">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-photo">
+      <div class="ring"></div>
+      <img
+        src="https://i.supaimg.com/045a0667-e243-46b2-8144-d6c3eda07993.jpg"
+        alt="THOUFEEK RAHMAN M profile photo"
+        loading="lazy"
+      />
+    </div>
+  </main>
+
+  <section id="about" class="section container">
+    <h2>About</h2>
+    <p>
+      I enjoy building neat UI with subtle animations and clean code. This starter portfolio is lightweight,
+      responsive, and easy to customize—perfect for showing your work.
+    </p>
+    <ul class="pill-list">
+      <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Responsive UI</li><li>Animations</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section container">
+    <h2>Projects</h2>
+    <div class="grid">
+      <article class="card reveal">
+        <h3>Project One</h3>
+        <p>A clean landing page with smooth scroll and dark mode.</p>
+        <a href="#" class="link">Preview →</a>
+      </article>
+
+      <article class="card reveal">
+        <h3>Project Two</h3>
+        <p>Animated components using only CSS transforms and keyframes.</p>
+        <a href="#" class="link">Preview →</a>
+      </article>
+
+      <article class="card reveal">
+        <h3>Project Three</h3>
+        <p>Simple gallery grid with hover effects and lazy images.</p>
+        <a href="#" class="link">Preview →</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section container">
+    <h2>Contact</h2>
+    <form class="contact" onsubmit="event.preventDefault(); alert('Thanks! I will get back to you.');">
+      <label>
+        Name
+        <input type="text" placeholder="Your name" required />
+      </label>
+      <label>
+        Email
+        <input type="email" placeholder="you@example.com" required />
+      </label>
+      <label class="full">
+        Message
+        <textarea rows="4" placeholder="Say hello..." required></textarea>
+      </label>
+      <button class="btn" type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> THOUFEEK RAHMAN M • Built with ❤️ using HTML, CSS & JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
